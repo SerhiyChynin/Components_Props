@@ -1,15 +1,9 @@
-import './Main.css'
-import articles from '../data/articles.json' 
 
 function Main() {
     return (
-        <div className='Main-site-main'>
-            {articles.map(item =>
-                <section>
-                    <h2>{item.title}</h2>
-                    <div>{item.body}</div>
-                </section>)}
-        </div>
+        <div>
+            <p>Text example</p>
+       </div>
     ); 
 }
 

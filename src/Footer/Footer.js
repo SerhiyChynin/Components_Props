@@ -1,12 +1,12 @@
-import "./Footer.css"
+import Nav from "../Header/Nav";
 
 
 function Footer() {
     return (
-        <div className="Footer-site-footer">
-            <b>React site</b>
-            <p>2023 Copyright. All rights reserved</p>
-        </div>
+        <footer>
+            <h3>site_name</h3>
+            <Nav/>
+        </footer>
     ); 
 }
 

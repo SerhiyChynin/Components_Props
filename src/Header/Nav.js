@@ -1,9 +1,11 @@
 
 function Nav() {
     return (
-        <div>
-            
-        </div>
+     <nav>
+        <ul class="main-navigation">
+            {/* здесь будет распечатан props */}
+        </ul>
+    </nav>
     ); 
 }
 
