@@ -1,9 +1,10 @@
 
-function Nav() {
+function Nav(props) {
+    const listItem = props.nav.map(item => <li key={item.link}><a href={item.link}>{item.text }</a></li>)
     return (
      <nav>
-        <ul class="main-navigation">
-            {/* здесь будет распечатан props */}
+        <ul className="main-navigation">
+          {listItem}
         </ul>
     </nav>
     ); 

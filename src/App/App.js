@@ -15,13 +15,12 @@ const site = {
 
 function App() {
     return (
-        <div className='container'>
-            <Header/>
-            <Main/>
-            <Footer />
+        <>
+            <Header site={site} />
+            <Main />
+            <Footer site={site}/>
             
-            
-        </div>
+        </>
     ); 
 }
 
